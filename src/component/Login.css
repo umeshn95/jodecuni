@@ -1,0 +1,163 @@
+.codercubsL{
+    position: absolute;
+    margin-top: -360px;
+    margin-left: -230px;
+}
+
+.learner_login{
+    font-family: "Nunito Sans","Open Sans",sans-serif;
+}
+
+
+
+.login_message{
+
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex: 0 1 35%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+135deg
+,#00a5ff,#0071ae);
+    color: #fff;
+height: auto;
+height: 761px;
+width: 500px;
+
+
+}
+.login_form{
+
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 0 3rem 24px;
+    height: 761px;
+    width: 1100px;
+    
+}
+
+.login_main{
+    min-height: 100vh;
+    flex-direction: row;
+    display: flex;
+    align-items: stretch;
+
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #eaf5ff;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: #353e46;
+    text-rendering: optimizeLegibility;
+    background-color: #ebf5ff;
+    position: relative;
+}
+
+.linux_quote p{
+    font-family: "Nunito Sans","Open Sans",sans-serif;
+}
+
+.login_content{
+    width: 100%;
+    max-width: 500px;
+    height: 385px;
+}
+.signin_form h1{
+font-weight: 700;
+text-align: left;
+font-size: 45px;
+
+}
+.form_field{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex: 1 1;
+    align-items: stretch;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.form_field_icon{
+    display: flex;
+    align-items: center;
+    background: #e8f1f7;
+    padding: 0 1rem;
+}
+.icon_mail{
+    color: #a9b6bd;
+    
+}
+.form_field input{
+    border: 0;
+    width: 100%;
+    background: #f0f7fb;
+    padding: 16px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: lighter;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: #a9b6bd;
+
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+   
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    outline: none;
+    border-radius: 2px;
+    
+}
+::-ms-input-placeholder { 
+    color: #f0f7fb;
+}
+
+.btn-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    
+}
+.forgot_text{
+    color: #000e15;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: top;
+    font-size: 12px;
+    opacity: 0.8;
+    
+}
+.primary_right{
+    outline: none;
+    border-width: 0ch;
+
+    background: #00a5ff;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 1rem 3rem;
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-left: 220px;
+    margin-top: 20px;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.parent_review{
+    display: flex;
+    width: 100%;
+    height:300px;
+    background-color: white;
+    position: absolute;
+    float: left;
+    margin-top: 4700px;
+}
+
+.parent_1t{
+    height: 100px;
+    width: 100px;
+    
+}
+.parent_img1{
+    border-radius: 200px;
+}

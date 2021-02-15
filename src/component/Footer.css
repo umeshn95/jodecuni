@@ -1,0 +1,272 @@
+.footer{
+    background-color: #ff5d6c;
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+}
+.coderm{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin-top: -1px;
+    margin-left: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.home1{
+position: absolute;
+color: white;
+ margin-top: 100px;
+ z-index: 5;
+ margin-left: 400px;
+ font-size: 22px;
+    font-family: 'Antic Slab', serif;
+}
+.how{
+    position: absolute;
+    color: white;
+    margin-top: 140px;
+    margin-left: 400px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.why{
+    position: absolute;
+    color: white;
+    margin-top: 160px;
+    margin-left: 400px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.review{
+    position: absolute;
+    color: white;
+    margin-top: 180px;
+    margin-left: 400px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.about{
+    position: absolute;
+color: white;
+ margin-top: 100px;
+ z-index: 5;
+ margin-left: 700px;
+ font-size: 22px;
+    font-family: 'Antic Slab', serif;
+}
+.teac{
+    position: absolute;
+    color: white;
+    margin-top: 140px;
+    margin-left: 700px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.team{
+    position: absolute;
+    color: white;
+    margin-top: 160px;
+    margin-left: 700px;
+    font-size: 16px;  
+    white-space: nowrap;
+}
+.contact1{
+    position: absolute;
+    color: white;
+    margin-top: 220px;
+    margin-left: 700px;
+    font-size: 16px;  
+}
+.location{
+    position: absolute;
+    color: white;
+     margin-top: 100px;
+     z-index: 5;
+     margin-left: 1300px;
+     font-size: 22px;
+        font-family: 'Antic Slab', serif;
+}
+.location1{
+    position: absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 1300px;
+    font-size: 16px;  
+}
+.location2{
+    position: absolute;
+    color: white;
+    margin-top: 190px;
+    margin-left: 1300px;
+    font-size: 16px;  
+}
+.mobile{
+    position: absolute;
+    color: white;
+    margin-top: 187px;
+    margin-left: 1330px;
+    font-size: 16px;    
+}
+.right{
+    position: absolute;
+    color: white;
+    margin-top: 300px;
+    margin-left: 30px;
+    font-size: 16px;
+
+}
+
+.courses_footer{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 100px;
+
+}
+
+.support_center{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 100px;
+ 
+}
+
+
+.About_footer{
+
+    position: absolute;
+    margin-left: -300px;
+}
+
+.Home_footer{
+
+    position: absolute;
+    margin-left: -210px;
+}
+
+.courses{
+    position: absolute;
+    margin-left: 10px;
+    color: white;
+   
+     
+     font-size: 22px;
+        font-family: 'Antic Slab', serif;
+}
+
+
+.dev_app{
+    position: absolute;
+    color: white;
+    margin-top:40px;
+    margin-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.prog_scratch{
+    position: absolute;
+    color: white;
+    margin-top: 120px;
+    margin-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+
+.counsell_career{
+    position: absolute;
+    color: white;
+    margin-top: 140px;
+    margin-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+
+}
+
+.review1{
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    margin-left: 400px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.job1{
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    margin-left: 700px;
+    font-size: 16px; 
+}
+
+.Acad_advisor{
+    position: absolute;
+    color: white;
+    margin-top: 180px;
+    margin-left: 700px;
+    font-size: 16px; 
+    white-space: nowrap;
+}
+.web_app{
+    position: absolute;
+    color: white;
+    margin-top:60px;
+    margin-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.Adev_app{
+    position: absolute;
+    color: white;
+    margin-top:80px;
+    margin-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.Aweb_app{
+    position: absolute;
+    color: white;
+    margin-top:100px;
+    margin-left: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.sc{
+    position: absolute;
+    margin-left: 10px;
+    color: white;
+   white-space: nowrap;
+     
+     font-size: 22px;
+        font-family: 'Antic Slab', serif;
+}
+
+.DI{
+    position: absolute;
+    color: white;
+    margin-top:40px;
+    margin-left: 20px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.DA{
+    position: absolute;
+    color: white;
+    margin-top:60px;
+    margin-left: 20px;
+    font-size: 16px;
+    white-space: nowrap;  
+}
+.TV{
+    position: absolute;
+    color: white;
+    margin-top:80px;
+    margin-left: 20px;
+    font-size: 16px;
+    white-space: nowrap;  
+}

@@ -1,0 +1,44 @@
+.howimage{
+    width: 100%;
+    -webkit-filter: blur(12px);
+}
+
+.howu{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 900px;
+    
+    
+}
+
+.howuimage{
+    height: 560px;
+    width: 700px;
+}
+
+.howwork{
+position: absolute;
+margin-top: -600px;
+margin-left: 40px;
+font-size: 150px;
+font-family: 'Playfair Display', serif;
+color: white;
+
+}
+
+.howtext{
+    position: absolute;
+margin-top: -390px;
+margin-left: -90px;
+font-size: 40px;
+font-family: 'Playfair Display', serif;
+color: white;
+
+}
+
+.app_dev2{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -90px;
+
+}

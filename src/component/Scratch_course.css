@@ -1,0 +1,114 @@
+
+.scratch_div{
+    background-color: white;
+    height: 600px;
+    width: 1000px;
+    z-index: 3;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.scratch_text{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    
+    color: #54e346;
+
+}
+.scratch_description{
+   margin-top: -40px; 
+   font-size: 18px;
+   font-weight: lighter;
+   padding: 140px;
+   padding-left: 210px;
+   text-align: left;
+   font-family: 'Tajawal', sans-serif;
+}
+.scratch_icon{
+
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -300px;
+}
+.starting_from_scrath{
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 260px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+.scratch_course_detail{
+    position: absolute;
+    font-size: 15px;
+    margin-top: -355px;
+    margin-left: 260px;
+
+}
+
+.scratch_course_details{
+    position: absolute;
+    z-index: 4;
+    margin-top: 650px;
+    margin-left: -300px;
+    height: 50px;
+    width: 250px;
+    border-radius: 9px;
+    background-color: #54e346;
+    border-width: 0vw;
+    font-size: 16px;
+
+}
+.scratch_course_details:hover{
+    background-color: #aaaaaa;
+    box-shadow: 0 0 0 3px #aaaaaa;
+    
+}
+
+/* .scratch_course_detail{
+    position: absolute;
+    z-index: 4;
+    margin-top: 650px;
+    margin-left: -260px;
+    height: 50px;
+    width: 250px;
+    border-radius: 9px;
+} */
+
+.scratch_course_signup{
+    position: absolute;
+    z-index: 4;
+    margin-top: 650px;
+    margin-left: -40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 9px;
+    font-size: 16px;
+    background-color: #fde8cd;
+    border-width: 0vw;
+    
+}
+.scratch_course_signup:hover{
+    background-color: #faf3e0;
+    box-shadow: 0 0 0 3px #faf3e0;
+}
+
+.scratch_img{
+    position: absolute;
+    margin-left: -800px;
+    margin-top: 160px;
+    z-index: 5;
+    border-radius: 25px;
+    width: 600px;
+    height: 400px;
+}
+.scratch_button{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 600px;
+}
+
+body{
+    background-color: #f6f6f6;
+}

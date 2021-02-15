@@ -1,0 +1,12 @@
+.bloom2{
+position: absolute;
+margin-left: -1000px;
+}
+.bloom{
+    position: absolute;
+    margin-left: -200px;
+    z-index: 1;
+    margin-top: 20px;
+    height: 390px;
+    width: 390px;
+}

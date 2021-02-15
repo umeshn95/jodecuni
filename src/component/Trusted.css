@@ -1,0 +1,42 @@
+.trust_card1{
+height: 150px;
+width: 300px;
+background-color: white;
+margin: 20px;
+border-radius: 25px;
+
+
+}
+
+.trusted_inside{
+display: flex;
+margin-top: 200px;
+margin-left: 200px;
+
+
+
+}
+
+.Main_trusted{
+    height: 800px;
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+}
+.trusted_inside2{
+    position: absolute;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+
+.trust_card4{
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 25px;
+    
+    }
+  

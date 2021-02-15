@@ -1,0 +1,254 @@
+.Course_quote{
+    position: absolute;
+    margin-top: 2200px;
+}
+
+
+.class1_5_fulldiv{
+display: flex;
+justify-content: space-between;
+margin-top: 2500px;
+position: absolute;
+margin-left: -360px;
+box-sizing: border-box;
+
+
+
+}
+.basic_internal_div{
+background-color: white;
+height: 600px;
+width: 400px;
+float: left;
+margin: 20px;
+margin-left: 20px;
+border-radius: 20px;
+padding: 19px 24px;
+
+}
+.name_plan_basic{
+
+    font-weight: 700;
+  
+    width: fit-content;
+    text-transform: uppercase;
+    border-radius: 8px;
+    opacity: .9;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 55px;
+    box-sizing: border-box;
+    color: #54e346;
+}
+
+.plan_basics_of_coding2{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    outline: 0;
+    margin-left:-155px;
+
+
+}
+
+.basic_curriculum{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-left: -170px;
+
+
+}
+
+.syllabus_basic{
+    display: flex;
+    align-items: center;
+    color: hsla(0,0%,50.2%,.7);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    height: 46px;
+    
+    text-align: left;
+
+}
+.tools_basic{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2.3px;
+    text-align: left;
+    margin-top: 40px;
+
+}
+.tools_scratch{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: hsla(0,0%,50.2%,.7);
+    letter-spacing: -.2px;
+    font-weight: 600;
+}
+.scratchimg{
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+.tools_codeorg{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: hsla(0,0%,50.2%,.7);
+    letter-spacing: -.2px;
+    font-weight: 600;
+}
+
+
+.tool_grid{
+    display: grid;
+    max-width: var(--maxWidth);
+    justify-content: space-between;
+    margin: 9px auto auto;
+    grid-template-columns: 55% 45%
+}
+
+.tool_main_div{
+    height: 131px;
+    margin-top: 20px;
+}
+.project_basic{
+
+    height: 0px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  
+}
+.project_text_basic{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2.33px;
+    text-align: left;
+}
+.project_des_div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px 0 10px;
+}
+.project_des_div_span{
+    line-height: 146%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: hsla(0,0%,50.2%,.7);
+    font-size: 14px;
+   
+    font-weight: 600;
+}
+.basic_plan_off{
+    font-weight: 700;
+    color: #5ac266;
+    font-size: 12px;
+    border-radius: 100px;
+    background-color: rgba(152,255,104,.2);
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 4px 14px;
+    width: 80px;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-left: 110px;
+}
+.per_session_basic{
+    display: flex;
+    align-items: center;
+    color: hsla(0,0%,50.2%,.7);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.2px;
+
+}
+.plan_basic_dot{
+    display: flex;
+    align-items: center;
+    color: hsla(0,0%,50.2%,.7);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -.2px;
+}
+.off_cut{
+  text-decoration: line-through;
+
+}
+.join_basic{
+width: 250px;
+height: 40px;
+text-align: center;
+font-size: 20px;
+border-radius: 19px;
+border-width: 0vw;
+background-color:#54e346 ;
+margin-left: -10px;
+margin-top: 50px;
+}
+
+.join_basic:hover{
+    box-shadow:  0 0 0 2px #54e346 ;
+}
+
+
+.standard_internal_div{
+
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 19px 24px;
+}
+
+.plan_standard_of_coding2{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    outline: 0;
+    margin-left: -110px;
+}
+
+.premium_internal_div{
+
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    margin: 20px;
+    float: left;
+    border-radius: 20px;
+    padding: 19px 24px;
+}
+.plan_premium_of_coding2{
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    outline: 0;
+    margin-left: -70px;
+
+}
+
+.project_des_div_span_premium{
+    line-height: 146%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: hsla(0,0%,50.2%,.7);
+    font-size: 14px;
+   
+    font-weight: 600;
+    text-align: left;
+
+}

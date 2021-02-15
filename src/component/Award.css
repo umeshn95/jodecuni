@@ -1,0 +1,44 @@
+.Awards{
+    display: flex;
+    margin-top: 5300px;
+    
+   
+}
+
+
+
+.Award1{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    margin: 40px;
+    margin-left: 250px;
+    border-radius: 25px;
+    
+    
+}
+
+.Award2{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 25px;
+}
+.Award3{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 25px;
+}
+.ed_des{
+    font-size: 19px;
+    font-weight: 600;
+}
+.desc_award{
+    padding:9px;
+}
+.desc_award p{
+    margin-left: 50px;
+}
