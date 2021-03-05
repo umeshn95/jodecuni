@@ -6,15 +6,20 @@
 
 .front_image{
 
-    background: linear-gradient(
-        82.95deg
-        , rgb(191, 50, 64) -6.56%, rgb(126, 54, 217) 122.43%), rgb(255, 90, 67);
-        height: 760px;
+    background-color: #1287fa;
+        height: 800px;
     width: 100%;
+    background: linear-gradient(
+        200deg
+        , #27156E, #6A2A88, #9F4981);
+
     
    
 
 }  
+
+
+
 
 .inline_circle{
     position: absolute;
@@ -40,7 +45,14 @@
     width: 500px;
    
 }
-
+.codelogo{
+    position: absolute;
+    margin-top: 430px;
+    width: 136px;
+    margin-left: 340px;
+    z-index: 1;
+    opacity: 0.5;
+}
 
 .cfk{
     position: absolute;
@@ -55,7 +67,7 @@
     position: absolute;
     z-index: 1;
     color: white;
-    font-size: 45px;
+    font-size: 2.9vw;
     margin-top: -550px;
     margin-left: 80px;
     font-family: 'Poppins', sans-serif;
@@ -329,7 +341,7 @@
 
 .class_description{
     position: absolute;
-    background-color: #e4ecf3;
+    background-color: #f6f6f6;
     margin-top: 1580px;
     height: 60px;
     width: 1000px;
@@ -536,10 +548,12 @@ margin-top: 2600px;
     position: absolute;
     /* -webkit-box-reflect: below -12px linear-gradient(
         transparent,white); */
-        margin-top: 150px;
+        margin-top: 50px;
         z-index: 2;
-        margin-left: 450px;
-        font-size: 40px;
+        margin-left: 620px;
+        font-size: 30px;
+        font-family: Roboto Slab,serif;
+        
     
 }
 
@@ -547,7 +561,7 @@ margin-top: 2600px;
 position: relative;
 font-family: 'Playfair Display', serif;
 display: inline-block;
-color: black;
+color: hotpink;
 font-size: 2em;
 text-transform: uppercase;
 animation: animate 3s ease-in-out infinite;
@@ -596,7 +610,7 @@ animation: animate 3s ease-in-out infinite;
     position: absolute;
     margin-left: 100px;
     margin-top: -340px;
-    background-color: #e7d9ea;
+    background-color: #f6f6f6;
     width: 600px;
     height: 300px;
     font-size:23px;
@@ -662,15 +676,16 @@ font-size: 19px;
 }
 .all_plan_classes{
     display: flex;
-    width: 900px;
+    width: 56.25rem;
     height: 100px;
     padding: 10px 10px;
     background-color: #bedcfa;
     
     border-radius: 8px;
-    margin-top: 2380px;
-    margin-left: -100px;
+    margin-top: 100px;
+    margin-left: 400px;
     align-items: center;
+    z-index: 1;
 
 }
 .classes1to6w{
@@ -759,18 +774,65 @@ cursor: pointer;
 
 .quote_div{
     position: relative;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 60px 30px;
+    padding: 25px;
+    background: #f8fffe;
+
+box-sizing: border-box;
+margin-left: 200px;
+z-index: 1;
+
+
     
     
-    
-    padding-top: 12rem;
-    padding-bottom: 2.5rem;
 }
-.quote_div p{
-    font-size: 30px;
-    font-weight: 600;
-    opacity: 1!important;
+
+.quote_div_bordered{
+    border-width: 10px;
+
+}
+
+.quote_credit{
+font-weight: bold;
+font-style: normal;
+text-align: right;
+
+}
+.quote_credit::before{
+    content: "\2014\0020";
+}
+
+.quoted::before{
+    
+    font-size: 100px;
+    color: #1287fa;
+    display: block;
+    margin-bottom: -40px;
+    margin-top: -20px;
+    float: left;
+
+
+
+}
+
+
+
+.quote_para{
+    font-size: 24px;
+    font-family: Roboto Slab,serif;
+    font-weight: 520;
+    
+   font-style: 18.4px; 
+   margin: 0;
+
+   
     
 }
+
+
+
 .quote_div img{
    height: 300px;
    width: 300px;
@@ -867,8 +929,8 @@ margin-left: -400px;
   }
 .phone_region{
 position: absolute;
-margin-top: -320px;
-    margin-left: 130px;
+margin-top: -20vw;
+    margin-left: 8.1vw;
     display: flex;
 }
 
@@ -922,3 +984,373 @@ outline: none;
     color: white;
     font-weight: 450;
 }
+
+.globe{
+    position: absolute;
+    opacity: 0.2;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.rocket{
+    position: absolute;
+    opacity: 0.1;
+    margin-left: 250px;
+    margin-top: -210px;
+
+}
+
+.cpink{
+    position: absolute;
+     opacity: 0.1;
+    margin-left: 360px;
+    margin-top: 230px;
+}
+.river{
+    position: absolute;
+    opacity: 0.9;
+    margin-left: 530px;
+    margin-top: 560px;
+}
+
+.cpink1{
+    position: absolute;
+     opacity: 0.4;
+    margin-left: 640px;
+    margin-top: 380px;
+    height: 150px;
+}
+.stars{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 330px;
+    opacity: 0.2;
+}
+.coding_champ_course{
+    position: relative;
+    background-color: #f6f6f6;
+    margin-top: 150px;
+}
+.quote_para{
+    display: block;
+    color: rgba(0,0,0,.7);
+    font-size: 30.4px;
+    font-weight: 600;
+}
+
+.laptop_svg{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin-top: -1200px;
+    margin-left: 1200px;
+    
+}
+
+.edu_svg{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin-top: -700px;
+    margin-left: 100px;
+    
+}
+
+.globe_edu_svg{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin-top: -300px;
+    margin-left: 1200px;
+
+}
+
+.juni_back{
+    position: absolute;
+    margin-top: -1300px;
+    z-index: 0;
+}
+
+.juni_back2{
+    position: absolute;
+    margin-top: -750px;
+    z-index: 0;
+}
+.juni_back3{
+    position: absolute;
+    margin-top: -1900px;
+    z-index: 0;
+}
+
+.code_back1{
+    position: absolute;
+    margin-top: -1710px;
+    z-index: -1;
+}
+
+.code_back2{
+    position: absolute;
+    margin-top: -1300px;
+    z-index: -1;
+}
+.code_back3{
+    position: absolute;
+    margin-top: -600px;
+    z-index: 0;
+}
+.code_back4{
+    position: absolute;
+    margin-top: 1500px;
+    z-index: 0;
+}
+
+.parent_reviewx{
+    position: relative;
+    margin-top: 100px;
+}
+
+.parent_reviewx h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: hotpink;
+}
+
+.clr{
+    background-color: white;
+}
+
+.trust_value{
+    position: relative;
+    margin-top: 1000px;
+    
+}
+
+body{
+    background-color: white;
+}
+
+.counter_home{
+    margin-top: 800px;
+    z-index: 2;
+}
+.new_trust{
+    margin-top: -100px;
+    z-index: 2;
+}
+
+.school_review{
+    margin-top: 800px;
+    
+}
+.parent_love{
+    z-index: 2;
+    text-align: center;
+    margin-left: 600px;
+    color: hotpink;
+    font-weight: 700;
+    font-size: 35.2px;
+}
+
+.footer_home{
+    position: relative;
+    margin-top: 0px;
+}
+
+.i1{
+    margin-top: 900px;
+}
+
+
+
+.our_teach_code1{
+    margin-top: 1500px;
+}
+
+
+@media all and (max-width : 768px){
+.lci{
+    font-size: 7vw;
+    font-weight: 200;
+    font-family: 'Bree Serif', 'serif';
+    margin-left: 0rem;
+    position: absolute;
+margin-top: -32rem;
+white-space: nowrap;
+    
+}
+
+.phone_region{
+    display: flex;
+    flex-direction: column;
+    margin-top: -360px;
+    width: 164vw;
+}
+
+.phone_button{
+    width: 80vw;
+    height: 60px;
+    margin-top: 15px;
+}
+.Enter_phone_number{
+    margin-top: -360px;
+    font-size: 3vw;
+    margin-left: 9vw;
+}
+.wtc{
+    font-size: 3.5vw;
+    margin-left: 28px;
+    margin-top: -210px;
+}
+
+.front_kid_parent{
+    margin-left: -120px;
+    margin-top: -200px;
+    height: 70vw;
+    width: 74vw;
+}
+
+.quote_para{
+    font-size: 4vw;
+    min-width: 30vw;
+    margin-left: -200px;
+}
+
+
+.code_back1{
+    position: absolute;
+    margin-top: -1710px;
+    z-index: -1;
+}
+
+.code_back2{
+    position: absolute;
+    margin-top: -1300px;
+    z-index: -1;
+}
+.code_back3{
+    position: absolute;
+    margin-top: -800px;
+    z-index: -1;
+}
+.code_back4{
+    position: absolute;
+    margin-top: 1500px;
+    z-index: 0;
+}
+.front_image{
+    height: 500px;
+}
+
+}
+
+/* responsive */
+
+@media (min-width: 0px) and (max-width: 769px) {
+
+    .code_back4{
+        position: absolute;
+        margin-top: 1500px;
+        z-index: -1;
+    }
+
+    .all_plan_classes{
+        display: flex;
+        width: 100.25vw;
+        height: 60px;
+        padding: 10px 10px;
+        background-color: #bedcfa;
+        
+        border-radius: 8px;
+        margin-top: 0px;
+        margin-left: 0px;
+        align-items: center;
+        z-index: 1;
+    
+    }
+
+    .classes1to6w{
+        font-size: 3vw;
+        margin: 5vw;
+        white-space: nowrap;
+        background-color: white;
+        height: 10vw;
+        width: 25vw;
+        line-height: 33px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 700;
+        
+        }
+        
+        .classes1to6{
+            font-size: 3vw;
+        margin: 5vw;
+        white-space: nowrap;
+
+        height: 10vw;
+        width: 25vw;
+        line-height: 33px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 700;
+            }
+        
+        .classes7to10w{
+            font-size: 3vw;
+            margin: 5vw;
+            white-space: nowrap;
+            background-color: white;
+            height: 10vw;
+            width: 25vw;
+            line-height: 33px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+        
+        
+        .classes7to10{
+            font-size: 3vw;
+            margin: 5vw;
+            white-space: nowrap;
+            
+            height: 10vw;
+            width: 25vw;
+            line-height: 33px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+        
+        
+        .classes11to12w{
+            font-size: 3vw;
+            margin: 5vw;
+            white-space: nowrap;
+            background-color: white;
+            height: 10vw;
+            width: 25vw;
+            line-height: 33px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+        
+        }
+        
+        .classes11to12{
+            font-size: 3vw;
+            margin: 5vw;
+            white-space: nowrap;
+            
+            height: 10vw;
+            width: 25vw;
+            line-height: 33px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+        
+        }
+  
+  }
+
+  

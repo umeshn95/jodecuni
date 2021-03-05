@@ -20,7 +20,7 @@ import thunkableapp from '../image/thunkable.png'
 function Courseplan_basic(props) {
     return ( 
 <div className='card_plan_upper'>
-<h1 className='Course_quote'>Our Kids are Future & Future is Coding</h1>
+
 <div className='class1_5_fulldiv'>
  
  <div className='basic_internal_div'>
@@ -110,7 +110,7 @@ function Courseplan_basic(props) {
 
 
 </div> */}
-<button className='join_basic'>Join Now</button>
+<button className='join_basic1'>Join Now</button>
 </div>
  </div>
 
@@ -160,7 +160,7 @@ function Courseplan_basic(props) {
 
 
 </div> */}
-<button className='join_basic'>Join Now</button>
+<button className='join_basic2'>Join Now</button>
 </div>
 
  </div>

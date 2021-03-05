@@ -166,7 +166,7 @@ function Standard(props) {
 
 
 </div> */}
-<button className='join_basic'>Join Now</button>
+<button className='join_basic1'>Join Now</button>
 </div>
 
  </div>

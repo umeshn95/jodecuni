@@ -4,7 +4,9 @@ import './Trusted.css'
 function Trusted() {
     return (
         <div className='Main_trusted'>
+         <h1 className='trusted_h1'> Our Trustability in Learning And Knowledgebase</h1>
             <div className='trusted_inside'>
+            
 <div className='trust_card1'>
 <p>Parent satisfaction score of 4.8 in 5</p>
 <p>	&#11088;	&#11088;	&#11088;	&#11088;	&#11088;</p>
@@ -31,6 +33,56 @@ function Trusted() {
 </div>
 
             </div>
+
+
+
+
+
+
+            {/* reponsive trusted */}
+
+
+            <div className='trus'>
+        
+        <div className="trus_cardContainer">
+          <div className="trus_card" style={{backgroundColor: 'rgb(153, 29, 224)'}}>
+            <h2>Parent satisfaction score of 4.8 in 5</h2>
+            <p>Some text</p>
+          </div>
+          <div className="trus_card" style={{backgroundColor: 'rgb(12, 126, 120)'}}>
+            <h2>Parent satisfaction score of 4.8 in 5</h2>
+            <p>Some text</p>
+          </div>
+          <div className="trus_card" style={{backgroundColor: 'rgb(207, 41, 91)'}}>
+            <h2>Parent satisfaction score of 4.8 in 5</h2>
+            <p>Some text</p>
+          </div>
+          <div className="trus_card" style={{backgroundColor: 'rgb(204, 91, 39)'}}>
+            <h2>Parent satisfaction score of 4.8 in 5</h2>
+            <p>Some text</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
         </div>
     )
 }

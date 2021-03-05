@@ -42,3 +42,38 @@ color: white;
     margin-left: -90px;
 
 }
+
+.good_screen{
+    position: relative;
+    margin-top: 350px;
+
+}
+
+.good_screen_image{
+    float: left;
+    width: 50%;
+    margin-top: 14px;
+
+}
+.good_screen_content{
+display: block;
+width: 50%;
+float: right;
+
+}
+
+
+.good_screen_content_title{
+
+    
+}
+.good_screen_content_para{
+    display: block;
+}
+
+.good_screen_content_detail{
+    display: block;
+}
+.good_screen_para_div{
+    display: contents;
+}

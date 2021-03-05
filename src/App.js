@@ -19,13 +19,27 @@ import Why from './component/Why';
 import React,{useEffect} from 'react'
 import Login from './component/Login';
 import Signup from './component/Signup';
+import Phillosophy from './component/Phillosophy';
+import Contactcodejuni from './component/Contactcodejuni';
+import Schools from './component/Schools';
+import Ourstory from './component/Ourstory';
+import Codingchamp from './component/Codingchamp';
 
 
 
 function App() {
+
+
+  
   useEffect(()=>{
     console.log(window.scrollY)
+
   })
+     
+
+
+
+ 
   return (
     <BrowserRouter>
     <div className="App">
@@ -38,7 +52,7 @@ function App() {
 </Route>
 <Route exact path='/home' ><Navbar></Navbar>
 <Home></Home>
-<Footer></Footer>
+
 </Route>
 <Route exact path='/aboutus'><Aboutus></Aboutus></Route>
 <Route exact path='/mentor'><Ourmentor></Ourmentor></Route>
@@ -53,6 +67,11 @@ function App() {
 <Route exact path='/register'><Register></Register></Route>
 <Route exact path='/login'> <Login></Login></Route>
 <Route exact path='/signup'><Signup></Signup></Route>
+<Route exact path='/phillosophy'><Phillosophy></Phillosophy></Route>
+<Route exact path='/contactjuni'><Contactcodejuni></Contactcodejuni></Route>
+<Route exact path='/school'><Schools></Schools></Route>
+<Route exact path='/ourstory'><Ourstory></Ourstory></Route>
+<Route exact path='/champ'><Codingchamp></Codingchamp></Route>
       </Switch>
  
 

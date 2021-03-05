@@ -2,8 +2,13 @@
 height: 150px;
 width: 300px;
 background-color: white;
-margin: 20px;
 border-radius: 25px;
+border-width: 1px;
+border-style: solid;
+border-color: green;
+margin: 20px;
+
+
 
 
 }
@@ -11,7 +16,7 @@ border-radius: 25px;
 .trusted_inside{
 display: flex;
 margin-top: 200px;
-margin-left: 200px;
+margin-left: 230px;
 
 
 
@@ -22,6 +27,18 @@ margin-left: 200px;
     width: 100%;
     padding: 40px;
     position: absolute;
+}
+
+
+.Main_trusted h1{
+    height: 800px;
+    width: 100%;
+    padding: 90px;
+    position: absolute;
+    color: hotpink;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: -20px;
 }
 .trusted_inside2{
     position: absolute;
@@ -37,6 +54,84 @@ margin-left: 200px;
     background-color: white;
     margin: 20px;
     border-radius: 25px;
+
+    border-width: 1px;
+border-style: solid;
+border-color: green;
     
     }
   
+    .trust_card1 p{
+        font-size: 20px;
+        padding: 16px;
+
+        
+    }
+
+    .trust_card4 p{
+        font-size: 20px;
+        padding: 16px;
+    }
+
+
+    @media (min-width: 0px) and (max-width: 769px){
+        .trusted_inside{
+            display: none;
+        }
+
+        .trusted_h1{
+            display: none;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* responsoive */
+
+    body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     }
+     * {
+        box-sizing: border-box;
+     }
+     .trus_card {
+        color: white;
+        float: left;
+        width: calc(25% - 20px);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+        height: 100px;
+     }
+     .trus_card p {
+        font-size: 18px;
+     }
+     .trus_cardContainer:after {
+        content: "";
+        display: table;
+        clear: both;
+     }
+     @media screen and (max-width: 600px) {
+        .trus_card {
+           width: 100%;
+        }
+
+        .trus{
+            margin-top: 1300px;
+        }
+     }
+
+
+     @media (min-width: 769px) and (max-width: 1769px){
+        .trus{
+            display: none;
+        }
+    }

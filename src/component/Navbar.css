@@ -1,22 +1,31 @@
 .navbar{
 
-background-color: white;
+  /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+
+ 
+position:fixed;
+height: 80px;
+width: 1600px;
+z-index: 3;
+
 
 
 
 }
-.newbarnav{
-  visibility: hidden;
-}
+
 
 .newnavbar{
-    background-color: #aa3e69;
+  background: linear-gradient(
+    200deg
+    , #27156E, #6A2A88, #9F4981);
 position:fixed;
 height: 80px;
 width: 1600px;
 z-index: 3;
 
 }
+
+
 
 .logo{
     position: absolute;
@@ -30,7 +39,7 @@ z-index: 3;
 
 .codercubs{
     z-index: 4;
-    color: black;
+    color: white;
     position: absolute;
     font-size:40px;
     margin-left: 14px;
@@ -40,19 +49,20 @@ z-index: 3;
 }
 hr {
   border: 0;
-  border-top: 2px solid  #036599;
-  margin: 5px 0;
+  border-top: 0.01px solid black;
+  margin: 4px 0;
+  opacity: 0.2;
 }
 
 .tooltip {
     position: absolute;
-    display: inline-block;
+    
     margin-top: 25px;
     z-index: 5;
     color: white;
     margin-left: -100px;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     position: fixed!important;
     font-weight: bold;
     
@@ -66,7 +76,7 @@ hr {
     z-index: 5;
     color: black;
     margin-left: -100px;font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     position: fixed!important;
     font-weight: bold;
     
@@ -76,16 +86,16 @@ hr {
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 280px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     font-family: Open Sans,sans-serif;;
     text-decoration: none;
-      color: #036599;
+      color: black;
       letter-spacing: 1px;
       cursor: pointer;
     text-align: center;
     border-radius: 3px;
     padding: 15px 15px;
-    
+    font-size: 16px;
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
@@ -97,16 +107,16 @@ hr {
   .tooltip1 .tooltiptext {
     visibility: hidden;
     width: 280px;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     font-family: Open Sans,sans-serif;;
     text-decoration: none;
-      color: #036599;
+      color: black;
       letter-spacing: 1px;
       cursor: pointer;
     text-align: center;
     border-radius: 3px;
     padding: 15px 15px;
-    
+    font-size: 16px;
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
@@ -130,47 +140,11 @@ hr {
 /*  */
 
 
-.contacttooltip_login {
-  position: absolute;
-  display: inline-block;
-  margin-top: 25px;
-  z-index: 5;
-  color: black;
-  margin-left: 370px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 19px;
-  position: fixed!important;
-  font-weight: bold;
-  
-}
 
 
 
 
-.contacttooltip_login .tooltiptext2 {
-  visibility: hidden;
-  width: 200px;
-  background: rgba(255, 255, 255, 0.5);
-  font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-  text-align: center;
-  border-radius: 3px;
-  padding: 15px 15px;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
 
-.contacttooltip_login:hover .tooltiptext2 {
-  visibility: visible;
-}
 
 
 .contacttooltip1_login {
@@ -181,7 +155,7 @@ hr {
   color: white;
   margin-left: 370px;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   position: fixed!important;
   font-weight: bold;
   
@@ -193,10 +167,10 @@ hr {
 .contacttooltip1_login .tooltiptext2 {
   visibility: hidden;
   width: 200px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
   text-align: center;
@@ -209,6 +183,7 @@ hr {
   top: 100%;
   left: 50%;
   margin-left: -60px;
+  font-size: 16px;
 }
 
 .contacttooltip1_login:hover .tooltiptext2 {
@@ -223,47 +198,6 @@ hr {
 /*  */
 
 
-.contacttooltip_signup {
-  position: absolute;
-  display: inline-block;
-  margin-top: 25px;
-  z-index: 5;
-  color: black;
-  margin-left: 470px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 19px;
-  position: fixed!important;
-  font-weight: bold;
-  
-}
-
-
-
-
-.contacttooltip_signup .tooltiptext2 {
-  visibility: hidden;
-  width: 200px;
-  background: rgba(255, 255, 255, 0.5);
-  font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-  text-align: center;
-  border-radius: 3px;
-  padding: 15px 15px;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.contacttooltip_signup:hover .tooltiptext2 {
-  visibility: visible;
-}
 
 
 .contacttooltip1_signup {
@@ -274,7 +208,7 @@ hr {
   color: white;
   margin-left: 470px;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   position: fixed!important;
   font-weight: bold;
   
@@ -286,12 +220,12 @@ hr {
 .contacttooltip1_signup .tooltiptext2 {
   font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
   visibility: hidden;
   width: 200px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   
   text-align: center;
   border-radius: 3px;
@@ -358,59 +292,12 @@ outline: none;
 
 
  
-.abouttooltip {
-  font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    position: absolute;
-    display: inline-block;
-    margin-top: 25px;
-    z-index: 5;
-    color: black;
-    margin-left: -180px;
-    
-    font-size: 20px;
-    position: fixed!important;
-font-weight: bold;
-    
-  }
-  
 
- 
-  
-  .abouttooltip .tooltiptext1 {
-    font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    visibility: hidden;
-    width: 180px;
-    background: rgba(255, 255, 255, 0.5);
-    
-    
-    text-align: center;
-    border-radius: 3px;
-    padding: 15px 15px;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  .abouttooltip:hover .tooltiptext1 {
-    visibility: visible;
-  }
   
   .abouttooltip1 {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     position: absolute;
@@ -419,7 +306,7 @@ font-weight: bold;
     z-index: 5;
     color: white;
     margin-left: -180px;
-    font-size: 20px;
+    font-size: 16px;
     position: fixed!important;
     font-weight: bold;
   }
@@ -430,13 +317,13 @@ font-weight: bold;
   .abouttooltip1 .tooltiptext1 {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     visibility: hidden;
     width: 180px;
     background-color: white;
-    background: rgba(255, 255, 255,0.5);
+    background: rgba(255, 255, 255,0.8);
   
     text-align: center;
     border-radius: 3px;
@@ -460,58 +347,11 @@ font-weight: bold;
 
 
 
-  .mentortooltip {
-    font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    position: absolute;
-    display: inline-block;
-    margin-top: 25px;
-    z-index: 5;
-    color: black;
-    margin-left: -320px;
-    
-    font-size: 20px;
-    position: fixed!important;
-    font-weight: bold;
-    
-  }
-  
 
- 
-  
-  .mentortooltip .tooltiptext2 {
-    font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    visibility: hidden;
-    width: 200px;
-    background-color: white;
-    background: rgba(255, 255, 255, 0.5);
-    
-    text-align: center;
-    border-radius: 3px;
-    padding: 15px 15px;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  .mentortooltip:hover .tooltiptext2 {
-    visibility: visible;
-  }
   .mentortooltip1 {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     position: absolute;
@@ -521,7 +361,7 @@ font-weight: bold;
     color: white;
     margin-left: -320px;
     
-    font-size: 20px;
+    font-size: 16px;
     position: fixed!important;
     font-weight: bold;
     
@@ -530,14 +370,14 @@ font-weight: bold;
   .mentortooltip1 .tooltiptext2 {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     visibility: hidden;
     width: 200px;
     background-color: white;
-    background: rgba(255, 255, 255, 0.5);
-    color: #036599;
+    background: rgba(255, 255, 255, 0.8);
+  
     text-align: center;
     border-radius: 3px;
     padding: 15px 15px;
@@ -557,7 +397,7 @@ font-weight: bold;
   .hometooltip {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     position: absolute;
@@ -567,7 +407,7 @@ font-weight: bold;
     color: white;
     margin-left: -400px;
     
-    font-size: 20px;
+    font-size: 16px;
     position: fixed!important;
     font-weight: bold;
   }
@@ -578,13 +418,13 @@ font-weight: bold;
   .hometooltip .tooltiptext2 {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     visibility: hidden;
     width: 200px;
     background-color: white;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     color: #ff5e78;
     text-align: center;
     border-radius: 3px;
@@ -604,110 +444,14 @@ font-weight: bold;
 
   
 
-   
-  .hometooltip1 {
-    font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    position: absolute;
-    display: inline-block;
-    margin-top: 25px;
-    z-index: 5;
-    color: black;
-    margin-left: -410px;
-    
-    font-size: 20px;
-    position: fixed!important;
-    font-weight: bold;
-  }
+
   
 
- 
-  
-  .hometooltip1 .tooltiptext2 {
-    font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    visibility: hidden;
-    width: 200px;
-    background-color: white;
-    background: rgba(255, 255, 255, 0.5);
-    color: #ff5e78;
-    text-align: center;
-    border-radius: 3px;
-    padding: 15px 15px;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  .hometooltip1:hover .tooltiptext2 {
-    visibility: visible;
-  }
-  
-
-  .contacttooltip {
-    font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    position: absolute;
-    display: inline-block;
-    margin-top: 25px;
-    z-index: 5;
-    color: black;
-    margin-left: 0px;
-    
-    font-size: 19px;
-    position: fixed!important;
-    font-weight: bold;
-    
-  }
-  
-
- 
-  
-  .contacttooltip .tooltiptext2 {
-    font-family: Open Sans,sans-serif;;
-  text-decoration: none;
-    color: #036599;
-    letter-spacing: 1px;
-    cursor: pointer;
-    visibility: hidden;
-    width: 200px;
-    background-color: white;
-    background: rgba(255, 255, 255, 0.5);
-    color: #ff5e78;
-    text-align: center;
-    border-radius: 3px;
-    padding: 15px 15px;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  .contacttooltip:hover .tooltiptext2 {
-    visibility: visible;
-  }
-  
 
   .contacttooltip1 {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     position: absolute;
@@ -717,7 +461,7 @@ font-weight: bold;
     color: white;
     margin-left: 0px;
     
-    font-size: 20px;
+    font-size: 16px;
     position: fixed!important;
     font-weight: bold;
     
@@ -729,13 +473,13 @@ font-weight: bold;
   .contacttooltip1 .tooltiptext2 {
     font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     visibility: hidden;
     width: 200px;
     background-color: white;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.8);
     color: #ff5e78;
     text-align: center;
     border-radius: 3px;
@@ -757,114 +501,22 @@ font-weight: bold;
 .scratch_color{
   font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 .career_color{
   font-family: Open Sans,sans-serif;;
   text-decoration: none;
-    color: #036599;
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
+    font-size: 16px;
 }
-.region{
-  
-  width: 50px;
-  z-index: 6;
-  margin-left: 1100px;
-}
-.region1{
-  position: relative;
-  margin-top: 15px;
-  z-index: 6;
-  margin-left: 0px;
-  width: 50px;
-  display: inline-block;
-}
-.C_color{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -25px;
-  font-family: 'Playfair Display', serif;
 
-}
-.o_color{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -30px;
-  margin-left: 44px;
-  font-family: 'Playfair Display', serif;
-}
-.d_color{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -30px;
-  margin-left: 77px;
-  font-family: 'Playfair Display', serif;
-}
-.e_color{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -30px;
-  margin-left: 110px;
-  font-family: 'Playfair Display', serif;
-}
-.r_color{
-  position: absolute;
-  color: white;
-  font-size: 70px; margin-top: -37px;
-  text-transform: lowercase;
-  margin-left: 155px;
-  font-family: 'Playfair Display', serif;
-}
-.c_color{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -30px;
-  margin-left: 172px;
-  font-family: 'Playfair Display', serif;
-}
-.u_color{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -30px;
-  margin-left: 210px;
-  font-family: 'Playfair Display', serif;
-}
-.b_color{
-  position: absolute;
-  color: white;
-  font-size: 70px; margin-top: -30px;
-  margin-left: 245px;
-  font-family: 'Playfair Display', serif;
-}
-.s_color{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -30px;
-  margin-left: 312px;
-  font-family: 'Playfair Display', serif;
-}
-.s_color1{
-  position: absolute;
-  color: white;
-  font-size: 70px;
-  margin-top: -30px;
-  margin-left: 264px;
-  font-family: 'Playfair Display', serif;
-  
 
-}
 
 .navitem{
 position: absolute;
@@ -875,4 +527,898 @@ margin-left: 890px;
 
 .code_juni_logo{
   position: absolute;
+}
+
+
+
+
+/* responsive */
+
+@media (max-width: 480px) { 
+.mobnav{
+  display: none;
+}
+
+  
+
+} 
+
+@media (min-width: 460px) and (max-width: 1624px){
+  .mobile_view{
+    display: none;
+   
+  }
+  .nav_contents{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav_logo{
+    display: flex;
+    flex-direction: row;
+  }
+  .company_name{
+    display: flex;
+    flex-direction: row;
+  }
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+
+  
+}
+
+
+
+
+
+/* Media Query for low resolution  Tablets, Ipads */ 
+
+
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+
+
+  .navbar{
+
+    /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+  
+   
+  position:fixed;
+  height: 40px;
+  width: 100%;
+  z-index: 3;
+  
+  
+  
+  
+  }
+  
+  
+  .newnavbar{
+    background: linear-gradient(
+      200deg
+      , #27156E, #6A2A88, #9F4981);
+  position:fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 3;
+  
+  }
+  
+  .logo{
+      position: absolute;
+      margin-top: 14px;
+      margin-left: 120px;
+      z-index: 4;
+      position: fixed;
+  }
+  
+  
+  
+  .codercubs{
+      z-index: 4;
+      color: white;
+      position: absolute;
+      font-size:40px;
+      margin-left: 5px;
+      font-family: 'Dancing Script', cursive;
+      margin-top: 1px;
+      position: fixed;
+  }
+  hr {
+    border: 0;
+    border-top: 0.01px solid black;
+    margin: 4px 0;
+    opacity: 0.2;
+  }
+  
+  .tooltip {
+      position: absolute;
+      
+      margin-top: 25px;
+      z-index: 5;
+      color: white;
+      margin-left: -420px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      position: fixed!important;
+      font-weight: bold;
+      
+    }
+    
+  
+    .tooltip1{
+      position: absolute;
+      display: inline-block;
+      margin-top: 25px;
+      z-index: 5;
+      color: black;
+      margin-left: -420px;font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      position: fixed!important;
+      font-weight: bold;
+      
+    }
+   
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 280px;
+      background: rgba(255, 255, 255, 0.8);
+      font-family: Open Sans,sans-serif;;
+      text-decoration: none;
+        color: black;
+        letter-spacing: 1px;
+        cursor: pointer;
+      text-align: center;
+      border-radius: 3px;
+      padding: 15px 15px;
+      font-size: 16px;
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+    
+    .tooltip1 .tooltiptext {
+      visibility: hidden;
+      width: 280px;
+      background: rgba(255, 255, 255, 0.8);
+      font-family: Open Sans,sans-serif;;
+      text-decoration: none;
+        color: black;
+        letter-spacing: 1px;
+        cursor: pointer;
+      text-align: center;
+      border-radius: 3px;
+      padding: 15px 15px;
+      font-size: 16px;
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+  
+  
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    
+    .tooltip1:hover .tooltiptext {
+      visibility: visible;
+    }
+   
+    
+  
+  
+  /*  */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .contacttooltip1_login {
+    position: absolute;
+    display: inline-block;
+    margin-top: 25px;
+    z-index: 5;
+    color: white;
+    margin-left: 230px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: fixed!important;
+    font-weight: bold;
+    
+  }
+  
+  
+  
+  
+  .contacttooltip1_login .tooltiptext2 {
+    visibility: hidden;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+    padding: 15px 15px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 16px;
+  }
+  
+  .contacttooltip1_login:hover .tooltiptext2 {
+    visibility: visible;
+  }
+  
+  
+  
+  
+  
+  
+  /*  */
+  
+  
+  
+  
+  .contacttooltip1_signup {
+    position: absolute;
+    display: inline-block;
+    margin-top: 25px;
+    z-index: 5;
+    color: white;
+    margin-left: 530px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: fixed!important;
+    font-weight: bold;
+    
+  }
+  
+  
+  
+  
+  .contacttooltip1_signup .tooltiptext2 {
+    font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+    visibility: hidden;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+    border-radius: 3px;
+    padding: 15px 15px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .contacttooltip_signup1:hover .tooltiptext2 {
+    visibility: visible;
+  }
+  
+  
+  /*  */
+  
+  /*  */
+  
+   
+  .btn_joinNow{
+  
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 280px;
+    height: 50px;
+    width: 100px;
+    background-color:#ff5a43 ;
+    border-width: 0vw;
+    outline: none;
+    font-weight: bold;
+    position: fixed;
+    z-index: 5;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .btn_joinNow:hover{
+  
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  outline: none;
+  
+  }
+  
+  
+  
+  
+  
+  /*  */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+    
+    .abouttooltip1 {
+      font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      position: absolute;
+      display: inline-block;
+      margin-top: 25px;
+      z-index: 5;
+      color: white;
+      margin-left: -480px;
+      font-size: 14px;
+      position: fixed!important;
+      font-weight: bold;
+    }
+    
+  
+   
+    
+    .abouttooltip1 .tooltiptext1 {
+      font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      visibility: hidden;
+      width: 180px;
+      background-color: white;
+      background: rgba(255, 255, 255,0.8);
+    
+      text-align: center;
+      border-radius: 3px;
+      padding: 10px 10px;
+      
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+    
+    .abouttooltip1:hover .tooltiptext1 {
+      visibility: visible;
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+    .mentortooltip1 {
+      font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      position: absolute;
+      display: inline-block;
+      margin-top: 25px;
+      z-index: 5;
+      color: white;
+      margin-left: -590px;
+      
+      font-size: 14px;
+      position: fixed!important;
+      font-weight: bold;
+      
+    }
+    
+ 
+    .mentortooltip1:hover .tooltiptext2 {
+      visibility: visible;
+    }
+    
+    .hometooltip {
+      font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      position: absolute;
+      display: inline-block;
+      margin-top: 25px;
+      z-index: 5;
+      color: white;
+      margin-left: -650px;
+      
+      font-size: 14px;
+      position: fixed!important;
+      font-weight: bold;
+    }
+    
+  
+   
+    
+  
+    
+    .hometooltip:hover .tooltiptext2 {
+      visibility: visible;
+    }
+  
+    
+  
+  
+    
+  
+  
+    .contacttooltip1 {
+      font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      position: absolute;
+      display: inline-block;
+      margin-top: 25px;
+      z-index: 5;
+      color: white;
+      margin-left: -350px;
+      
+      font-size: 14px;
+      position: fixed!important;
+      font-weight: bold;
+      
+    }
+    
+  
+   
+    
+    .contacttooltip1 .tooltiptext2 {
+      font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      visibility: hidden;
+      width: 200px;
+      background-color: white;
+      background: rgba(255, 255, 255, 0.8);
+      color: #ff5e78;
+      text-align: center;
+      border-radius: 3px;
+      padding: 15px 15px;
+      
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+    }
+    
+    .contacttooltip1:hover .tooltiptext2 {
+      visibility: visible;
+    }
+    
+  
+  .scratch_color{
+    font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+  }
+  .career_color{
+    font-family: Open Sans,sans-serif;;
+    text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      cursor: pointer;
+      font-size: 16px;
+  }
+  
+  
+  
+  .navitem{
+  position: absolute;
+  margin-left: 890px;
+  
+  
+  }
+  
+  .code_juni_logo{
+    position: absolute;
+  }
+  
+
+  .mobile_view{
+    display: none;
+  }
+
+
+} 
+
+/* Media Query for Large screens */ 
+@media (min-width: 1281px) { 
+  .mobnav { 
+      background-color: white; 
+  } 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+
+
+
+/*  */
+
+
+
+
+
+  
+/* responsive navbar */
+
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+nav {
+	background: #212121;
+	font-size:22px;
+	line-height: 32px;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	word-wrap:break-word !important;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+.log{
+  margin-left:390px;
+}
+
+
+/* h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+}	
+
+h3 {
+	font-size: 30px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3 a {
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+}
+
+h1 {
+	margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+	line-height: 70px;
+	font-family: 'Bree Serif', 'serif';
+	} */
+
+#container {
+	margin: 0 auto;
+	max-width: 890px;
+}
+
+p {
+	text-align: center;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* Giving a background-color to the nav container. */
+nav { 
+	margin:0;
+	padding: 0;
+	background-color: #254441;
+}
+
+#logo {
+	display: block;
+	padding: 0 20px;
+	float: left;
+	font-size:40px;
+	line-height: 60px;
+}
+
+
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+/* Positioning the navigation items inline */
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color: #254441;
+	}
+
+/* Styling the links */
+nav a {
+	display:block;
+	padding:14px 20px;	
+	color:#FFF;
+	font-size:15px;
+	text-decoration:none;
+}
+
+
+nav ul li ul li:hover { background: #000000; }
+
+/* Background color change on Hover */
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 60px; 
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:260px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:170px; 
+}
+
+.menu{
+  margin-left:400px;
+  
+}
+
+	
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+
+.coleft{
+  padding-left: 150px;
+}
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+	#logo {
+		display: flex;
+		padding: 0px;
+		width: 30%;
+		text-align: center;
+		
+	}
+
+	nav {
+		margin: 0;
+	}
+.menu{
+  margin-left:0px;
+  
+  
+}
+
+.coleft{
+  padding-left: 150px;
+}
+
+
+
+ 
+  
+  
+  
+  .log{margin-left:0}
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: flex;
+		background-color: #254441;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+    
+	}
+  .tright{
+    float:right;
+  }
+	.toggle:hover {
+		background-color: #000000;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #000000;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
 }
